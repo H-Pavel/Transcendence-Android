@@ -21,11 +21,6 @@ public class WalletConfigurationsImp implements WalletConfiguration {
     }
 
     @Override
-    public String getTrustedNodeHost() {
-        return null;
-    }
-
-    @Override
     public void saveTrustedNode(String host, int port) {
 
     }

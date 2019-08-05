@@ -33,11 +33,6 @@ public class WalletConfImp extends Configurations implements WalletConfiguration
     }
 
     @Override
-    public String getTrustedNodeHost() {
-        return getString(PREF_TRUSTED_NODE,null);
-    }
-
-    @Override
     public void saveTrustedNode(String host, int port) {
         save(PREF_TRUSTED_NODE,host);
     }
