@@ -16,16 +16,6 @@ public class WalletConfigurationsImp implements WalletConfiguration {
     public static Context context = new Context(networkParameters);
 
     @Override
-    public int getTrustedNodePort() {
-        return 0;
-    }
-
-    @Override
-    public void saveTrustedNode(String host, int port) {
-
-    }
-
-    @Override
     public void saveScheduleBlockchainService(long time) {
 
     }

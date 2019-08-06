@@ -9,11 +9,6 @@ import org.transcendencej.core.NetworkParameters;
 
 public interface WalletConfiguration {
 
-
-    int getTrustedNodePort();
-
-    void saveTrustedNode(String host,int port);
-
     void saveScheduleBlockchainService(long time);
 
     long getScheduledBLockchainService();
