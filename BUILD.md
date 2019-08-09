@@ -7,6 +7,10 @@ To build the project run
 
 The script will use [mingc/android-build-box](https://hub.docker.com/r/mingc/android-build-box/) docker image to assemble the application.
 
+<aside class="warning">
+The docker image is large and requires more than 12 Gb of free storage space.
+</aside>
+
 To create a signed ***.apk***, place the ```keystore.jks``` file in the root directory of the repository. This keystore file will be used for signing the application.
 Then, set the appropriate passphrases to the keystore in ```gradle.properties```. You need to set the values:
 ```
