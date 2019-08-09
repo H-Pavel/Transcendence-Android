@@ -1,14 +1,13 @@
 # Building
 
-The project can be built using Android Studio. But, for convinience we also provide a script to build using a docker container.
+The project can be built using Android Studio. But, for the convenience, we also provide a script to build the project using a docker container.
 
-To build the project run 
-``` build-project.sh```
+To build the project, run ``` build-project.sh```
 
 The script will use [mingc/android-build-box](https://hub.docker.com/r/mingc/android-build-box/) docker image to assemble the application.
 
 <aside class="warning">
-The docker image is large and requires more than 12 Gb of free storage space.
+Please note that the docker image is large and requires more than 12 Gb of free storage space.
 </aside>
 
 To create a signed ***.apk***, place the ```keystore.jks``` file in the root directory of the repository. This keystore file will be used for signing the application.
